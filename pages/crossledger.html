@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CrossLedger (CLXT) — GDN Group Trade Infrastructure</title>
+  <meta name="description" content="CrossLedger (CLXT) is GDN Group's blockchain-powered global trade infrastructure token. Smart escrow, verified documentation, and token-enabled settlement for cross-border commodity trade." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <style>
+    body { background: #070915; }
+    .clx-page-hero {
+      padding: 10rem 0 7rem;
+      position: relative;
+      overflow: hidden;
+      border-bottom: 1px solid rgba(42,111,219,0.2);
+    }
+    .clx-page-hero::before {
+      content:'';
+      position:absolute;
+      inset:0;
+      background:
+        radial-gradient(ellipse 80% 70% at 60% 40%, rgba(42,111,219,0.1) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 60% at 10% 80%, rgba(201,168,76,0.04) 0%, transparent 50%);
+    }
+    .clx-page-hero-grid {
+      position:absolute; inset:0;
+      background-image:
+        linear-gradient(rgba(42,111,219,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(42,111,219,0.05) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse at 60% 40%, rgba(0,0,0,0.5) 0%, transparent 65%);
+    }
+    .phase-card { background:var(--navy-card); border:1px solid rgba(42,111,219,0.2); border-radius:var(--radius-lg); padding:2rem; }
+    .phase-num { font-family:'DM Mono',monospace; font-size:0.65rem; color:#7EB8FF; letter-spacing:0.15em; margin-bottom:0.5rem; }
+    .phase-title { font-family:'Cormorant Garamond',serif; font-size:1.4rem; color:white; margin-bottom:0.75rem; }
+    .phase-desc { font-size:0.82rem; color:var(--cream-dim); }
+    .token-use { display:flex; gap:1rem; align-items:flex-start; padding:1.5rem 0; border-bottom:1px solid rgba(42,111,219,0.1); }
+    .token-use:last-child { border-bottom:none; }
+    .token-use-icon { width:36px; height:36px; background:rgba(42,111,219,0.12); border:1px solid rgba(42,111,219,0.2); border-radius:var(--radius); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:#7EB8FF; }
+    .token-use h4 { font-size:0.9rem; font-weight:600; color:var(--cream); margin-bottom:0.2rem; font-family:'DM Sans',sans-serif; }
+    .token-use p { font-size:0.8rem; }
+    .clx-nav { border-color: rgba(42,111,219,0.2) !important; }
+    .clx-nav .nav-logo-mark { border-color:#7EB8FF; color:#7EB8FF; }
+  </style>
+</head>
+<body>
+
+<nav class="nav scrolled clx-nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">
+      <div class="nav-logo-mark">GDN</div>
+      <span class="nav-logo-text">GDN Group</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html#trading">Trading</a></li>
+      <li><a href="../index.html#advisory">Advisory</a></li>
+      <li><a href="crossledger.html" class="active" style="color:#7EB8FF;">CrossLedger</a></li>
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="trading.html">Products</a></li>
+      <li><a href="https://crossledger.trade" target="_blank" class="nav-cta" style="border-color:#7EB8FF; color:#7EB8FF !important;">Enter Presale →</a></li>
+    </ul>
+    <button class="nav-mobile-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="clx-page-hero">
+  <div class="clx-page-hero-grid"></div>
+  <div class="container" style="position:relative;">
+    <div class="clx-badge fade-up" style="margin-bottom:2rem;">
+      <div class="clx-badge-dot"></div>
+      <span class="clx-badge-text">Presale Active · Stage 1 · Ethereum Mainnet</span>
+    </div>
+    <div style="display:flex; align-items:center; gap:1rem; margin-bottom:2rem;" class="fade-up">
+      <div class="clx-logo-box" style="width:56px; height:56px; font-size:0.85rem;">CLXT</div>
+      <h1 style="color:white; font-size:clamp(3rem,7vw,6rem);">CrossLedger</h1>
+    </div>
+    <p style="font-size:1.15rem; max-width:600px; margin-bottom:2.5rem; line-height:1.65;" class="fade-up fade-up-delay-1">A blockchain-powered platform built by GDN Group to modernise cross-border commodity trade. Smart escrow, verified documentation, real-time visibility, and token-enabled settlement for the world's trade corridors.</p>
+    <div style="display:flex; gap:1rem; flex-wrap:wrap;" class="fade-up fade-up-delay-2">
+      <a href="https://crossledger.trade" target="_blank" class="btn btn-clx">Enter Presale at crossledger.trade</a>
+      <a href="../index.html#contact" class="btn btn-outline">Enterprise Enquiry</a>
+    </div>
+  </div>
+</div>
+
+<main>
+
+<!-- Token Metrics -->
+<section style="padding:5rem 0; background:var(--navy-mid);">
+  <div class="container">
+    <div class="grid-4 fade-up">
+      <div style="background:rgba(42,111,219,0.08); border:1px solid rgba(42,111,219,0.2); border-radius:var(--radius-lg); padding:2rem; text-align:center;">
+        <div style="font-size:0.7rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--cream-dim); margin-bottom:0.5rem;">Presale Price</div>
+        <div style="font-family:'Cormorant Garamond',serif; font-size:2.5rem; color:white;">US$0.10</div>
+      </div>
+      <div style="background:rgba(42,111,219,0.08); border:1px solid rgba(42,111,219,0.2); border-radius:var(--radius-lg); padding:2rem; text-align:center;">
+        <div style="font-size:0.7rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--cream-dim); margin-bottom:0.5rem;">Launch Target</div>
+        <div style="font-family:'Cormorant Garamond',serif; font-size:2.5rem; color:white;">US$13.50</div>
+      </div>
+      <div style="background:rgba(42,111,219,0.08); border:1px solid rgba(42,111,219,0.2); border-radius:var(--radius-lg); padding:2rem; text-align:center;">
+        <div style="font-size:0.7rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--cream-dim); margin-bottom:0.5rem;">Current Stage</div>
+        <div style="font-family:'Cormorant Garamond',serif; font-size:2.5rem; color:white;">Stage 1</div>
+      </div>
+      <div style="background:rgba(42,111,219,0.08); border:1px solid rgba(42,111,219,0.2); border-radius:var(--radius-lg); padding:2rem; text-align:center;">
+        <div style="font-size:0.7rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--cream-dim); margin-bottom:0.5rem;">Network</div>
+        <div style="font-family:'Cormorant Garamond',serif; font-size:2.5rem; color:white;">Mainnet</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Problem / Solution -->
+<section style="padding:6rem 0;">
+  <div class="container">
+    <div class="grid-2" style="gap:5rem; align-items:center;">
+      <div class="fade-up">
+        <span class="label" style="color:#7EB8FF;">The Problem</span>
+        <div class="gold-line" style="background:#7EB8FF;"></div>
+        <h2 style="color:white;">Global Commodity Trade is Broken.</h2>
+        <p style="margin-top:1.25rem;">Cross-border commodity transactions still rely on paper-based letters of credit, manual document verification, and opaque settlement processes that take days or weeks — creating risk, cost and counterparty friction for every participant in the trade chain.</p>
+        <div style="margin-top:2rem; display:flex; flex-direction:column; gap:1rem;">
+          <div style="display:flex; gap:0.75rem; align-items:flex-start;">
+            <span style="color:#FF6B6B; font-size:1.2rem;">✗</span>
+            <p style="font-size:0.85rem;">Fraud risk from unverified trade documentation</p>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:flex-start;">
+            <span style="color:#FF6B6B; font-size:1.2rem;">✗</span>
+            <p style="font-size:0.85rem;">Slow, expensive letter of credit settlement</p>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:flex-start;">
+            <span style="color:#FF6B6B; font-size:1.2rem;">✗</span>
+            <p style="font-size:0.85rem;">No real-time supply chain visibility</p>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:flex-start;">
+            <span style="color:#FF6B6B; font-size:1.2rem;">✗</span>
+            <p style="font-size:0.85rem;">High counterparty risk for buyers and sellers</p>
+          </div>
+        </div>
+      </div>
+      <div class="fade-up fade-up-delay-1">
+        <span class="label" style="color:#2DBF7E;">The CrossLedger Solution</span>
+        <div class="gold-line" style="background:#2DBF7E;"></div>
+        <h2 style="color:white;">Blockchain-Verified Trade Infrastructure.</h2>
+        <p style="margin-top:1.25rem;">CrossLedger anchors every trade milestone — from SGS inspection to vessel departure — on Ethereum mainnet. Smart escrow releases funds automatically when conditions are met. No intermediaries. No delays. Full auditability.</p>
+        <div style="margin-top:2rem; display:flex; flex-direction:column; gap:1rem;">
+          <div style="display:flex; gap:0.75rem; align-items:flex-start;">
+            <span style="color:#2DBF7E; font-size:1.2rem;">✓</span>
+            <p style="font-size:0.85rem;">On-chain verification of SGS certificates, bills of lading, and trade documents</p>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:flex-start;">
+            <span style="color:#2DBF7E; font-size:1.2rem;">✓</span>
+            <p style="font-size:0.85rem;">Smart escrow: funds released automatically on condition fulfilment</p>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:flex-start;">
+            <span style="color:#2DBF7E; font-size:1.2rem;">✓</span>
+            <p style="font-size:0.85rem;">Real-time supply chain visibility for all trade participants</p>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:flex-start;">
+            <span style="color:#2DBF7E; font-size:1.2rem;">✓</span>
+            <p style="font-size:0.85width;">CLXT token unlocks platform tiers, fee discounts and trade credit</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Token Utility -->
+<section style="background:var(--navy-mid); padding:6rem 0;">
+  <div class="container">
+    <div class="grid-2" style="gap:5rem; align-items:start;">
+      <div class="fade-up">
+        <span class="label" style="color:#7EB8FF;">CLXT Token Utility</span>
+        <div class="gold-line" style="background:#7EB8FF;"></div>
+        <h2 style="color:white;">Where the Token Fits</h2>
+        <p style="margin-top:1rem;">CLXT is not a speculative asset — it is the utility layer of the CrossLedger platform. Token holders access platform features, discounts, and governance rights proportional to their holdings.</p>
+        <div style="margin-top:2rem;">
+          <div class="token-use">
+            <div class="token-use-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+            <div class="token-use">
+              <div><h4>Platform Service Fees</h4><p>CLXT is used to pay smart escrow and verification workflow fees on the CrossLedger platform.</p></div>
+            </div>
+          </div>
+          <div class="token-use">
+            <div class="token-use-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2zM1 10h22"/></svg></div>
+            <div><h4>Wallet Tier Access</h4><p>Different CLXT holding thresholds unlock different platform wallet tiers with enhanced features and services.</p></div>
+          </div>
+          <div class="token-use">
+            <div class="token-use-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div><h4>Fee Discounts & Incentives</h4><p>Token holders receive transaction fee discounts, early access to new trade corridors, and loyalty incentives.</p></div>
+          </div>
+          <div class="token-use">
+            <div class="token-use-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
+            <div><h4>Scalable Enterprise Adoption</h4><p>Commodity importers, exporters, financiers and logistics providers adopt CLXT as trade volumes scale.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="fade-up fade-up-delay-1">
+        <span class="label" style="color:#7EB8FF;">Project Phases</span>
+        <div class="gold-line" style="background:#7EB8FF;"></div>
+        <h2 style="color:white;">Roadmap</h2>
+        <div style="display:flex; flex-direction:column; gap:1rem; margin-top:2rem;">
+          <div class="phase-card" style="border-color:rgba(42,111,219,0.4); position:relative; overflow:hidden;">
+            <div style="position:absolute; top:0; left:0; right:0; height:2px; background:var(--blue-clx);"></div>
+            <div class="phase-num">PHASE 1 · ACTIVE</div>
+            <div class="phase-title">Presale & Platform Foundation</div>
+            <div class="phase-desc">CLXT token presale on Ethereum mainnet. Smart contract deployed. Platform infrastructure development. Stage 1 fundraising.</div>
+          </div>
+          <div class="phase-card">
+            <div class="phase-num">PHASE 2</div>
+            <div class="phase-title">Platform Launch & Trade Corridors</div>
+            <div class="phase-desc">CrossLedger trade platform launch. Initial commodity corridors onboarded (EN590, ICUMSA 45 sugar). Smart escrow and document verification live.</div>
+          </div>
+          <div class="phase-card">
+            <div class="phase-num">PHASE 3</div>
+            <div class="phase-title">Global Commodity Network</div>
+            <div class="phase-desc">Expansion into broader trade corridors. Enterprise user onboarding. Strategic integrations with financiers, inspection agencies, and logistics providers.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="padding:6rem 0; text-align:center; position:relative; overflow:hidden;">
+  <div style="position:absolute; inset:0; background:radial-gradient(ellipse 70% 70% at 50% 50%, rgba(42,111,219,0.08) 0%, transparent 70%);"></div>
+  <div class="container" style="position:relative;">
+    <div class="clx-badge" style="margin:0 auto 2rem; width:fit-content;" class="fade-up">
+      <div class="clx-badge-dot"></div>
+      <span class="clx-badge-text">Stage 1 · 33% Complete</span>
+    </div>
+    <h2 style="color:white; max-width:600px; margin:0 auto 1.5rem;" class="fade-up">Join the CrossLedger Presale</h2>
+    <p style="max-width:480px; margin:0 auto 2.5rem;" class="fade-up">Connect your MetaMask wallet at crossledger.trade and purchase CLXT at the Stage 1 presale price of US$0.10. Minimum purchase: 5 USDT.</p>
+    <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;" class="fade-up">
+      <a href="https://crossledger.trade" target="_blank" class="btn btn-clx" style="font-size:0.85rem; padding:1rem 2.5rem;">Enter Presale at crossledger.trade →</a>
+    </div>
+    <p style="margin-top:1.5rem; font-size:0.75rem; color:rgba(237,233,223,0.35);">This is not financial advice. Cryptocurrency investments carry risk. Please conduct your own research.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="padding-top:0; border-top:none;">
+      <div class="footer-legal">© 2026 GDN Enterprise Pty Ltd · CrossLedger is a product of GDN Group · ACN 666 495 263</div>
+      <a href="../index.html" style="color:var(--gold); font-size:0.8rem;">← Back to GDN Group Home</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
